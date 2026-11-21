@@ -1,0 +1,128 @@
+{
+  "requestId": 1,
+  "version": "SYNTHETIC-FIXTURE",
+  "data": {
+    "results": [
+      {
+        "entityId": "TEST_FIXTURE_0001",
+        "displayId": "TEST_FIXTURE_0001",
+        "cloudCover": 5,
+        "browse": [
+          {
+            "browsePath": "https://example.invalid/browse/TEST_FIXTURE_0001.jpg"
+          }
+        ],
+        "spatialCoverage": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.3,
+                26.1
+              ],
+              [
+                0.1,
+                26.1
+              ],
+              [
+                0.1,
+                26.5
+              ],
+              [
+                -0.3,
+                26.5
+              ],
+              [
+                -0.3,
+                26.1
+              ]
+            ]
+          ]
+        },
+        "temporalCoverage": {
+          "startDate": "1962-05-10 00:00:00",
+          "endDate": "1962-05-10 00:00:00"
+        },
+        "metadata": [
+          {
+            "fieldName": "Mission",
+            "value": "KH-4B"
+          },
+          {
+            "fieldName": "Camera Type",
+            "value": "Forward"
+          }
+        ],
+        "options": {
+          "bulk": false,
+          "download": true,
+          "order": false,
+          "secondary": false
+        }
+      },
+      {
+        "entityId": "TEST_FIXTURE_0004",
+        "displayId": "TEST_FIXTURE_0004",
+        "cloudCover": 0,
+        "browse": [
+          {
+            "browsePath": "https://example.invalid/browse/TEST_FIXTURE_0004.jpg"
+          }
+        ],
+        "spatialCoverage": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                5.0,
+                24.0
+              ],
+              [
+                5.1,
+                24.0
+              ],
+              [
+                5.1,
+                24.1
+              ],
+              [
+                5.0,
+                24.1
+              ],
+              [
+                5.0,
+                24.0
+              ]
+            ]
+          ]
+        },
+        "temporalCoverage": {
+          "startDate": "1963-06-01 00:00:00",
+          "endDate": "1963-06-01 00:00:00"
+        },
+        "metadata": [
+          {
+            "fieldName": "Mission",
+            "value": "ARGON"
+          },
+          {
+            "fieldName": "Camera Type",
+            "value": "Aft"
+          }
+        ],
+        "options": {
+          "bulk": false,
+          "download": false,
+          "order": true,
+          "secondary": false
+        }
+      }
+    ],
+    "recordsReturned": 2,
+    "totalHits": 2,
+    "nextRecord": 0,
+    "numExcluded": 0
+  },
+  "errorCode": null,
+  "errorMessage": null
+}

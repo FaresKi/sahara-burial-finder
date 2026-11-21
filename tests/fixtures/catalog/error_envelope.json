@@ -1,0 +1,7 @@
+{
+  "requestId": 1,
+  "version": "SYNTHETIC-FIXTURE",
+  "data": null,
+  "errorCode": "AUTH_INVALID",
+  "errorMessage": "synthetic auth failure"
+}

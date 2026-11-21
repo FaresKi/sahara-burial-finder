@@ -1,0 +1,17 @@
+data/
+outputs/restricted/
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
+
+# Generated artefacts: reproducible with `make all`; never committed
+outputs/public/*
+!outputs/public/.gitkeep
+# Local agent planning tickets
+.scratch/

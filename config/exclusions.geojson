@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "0",
+      "type": "Feature",
+      "properties": {
+        "name": "Reggane oasis / town (rough bbox)",
+        "aoi_id": "REG",
+        "kind": "settlement",
+        "source": "approximate box around Reggane town (about 26.72 N, 0.17 E) clipped to the AOI; NOT digitised from imagery",
+        "approximate": true,
+        "status": "draft_needs_human_review"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.25,
+              26.68
+            ],
+            [
+              0.25,
+              26.75
+            ],
+            [
+              0.12,
+              26.75
+            ],
+            [
+              0.12,
+              26.68
+            ],
+            [
+              0.25,
+              26.68
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

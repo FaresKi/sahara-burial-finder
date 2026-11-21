@@ -1,0 +1,32 @@
+name: Bug report
+description: Something in the pipeline is broken or wrong
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not include coordinates, tile IDs, maps or crops of newly detected candidate areas,
+        or any credentials.** Use private reporting for those (see SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Command and output
+      description: The `sbf` command you ran and the error. Redact anything sensitive.
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: Commit / version
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Disclosure check
+      options:
+        - label: This issue contains no candidate locations, restricted outputs or secrets.
+          required: true

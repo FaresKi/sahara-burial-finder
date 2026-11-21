@@ -1,0 +1,16 @@
+# Paths are relative to the project root.
+paths:
+  data_raw: data/raw
+  data_interim: data/interim
+  data_processed: data/processed
+  outputs_public: outputs/public
+  outputs_restricted: outputs/restricted
+  config_dir: config
+aois:
+  REG:
+    crs: "EPSG:32631"
+  INE:
+    crs: "EPSG:32631"
+tile_sizes_m: [64, 128]
+overlap: 0.5
+modern_resolution_m: 10

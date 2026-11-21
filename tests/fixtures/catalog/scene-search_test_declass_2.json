@@ -1,0 +1,71 @@
+{
+  "requestId": 1,
+  "version": "SYNTHETIC-FIXTURE",
+  "data": {
+    "results": [
+      {
+        "entityId": "TEST_FIXTURE_0002",
+        "displayId": "TEST_FIXTURE_0002",
+        "cloudCover": 10,
+        "browse": [
+          {
+            "browsePath": "https://example.invalid/browse/TEST_FIXTURE_0002.jpg"
+          }
+        ],
+        "spatialCoverage": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.3,
+                26.1
+              ],
+              [
+                0.1,
+                26.1
+              ],
+              [
+                0.1,
+                26.5
+              ],
+              [
+                -0.3,
+                26.5
+              ],
+              [
+                -0.3,
+                26.1
+              ]
+            ]
+          ]
+        },
+        "temporalCoverage": {
+          "startDate": "1968-03-05 00:00:00",
+          "endDate": "1968-03-05 00:00:00"
+        },
+        "metadata": [
+          {
+            "fieldName": "Mission",
+            "value": "KH-7"
+          },
+          {
+            "fieldName": "Camera Type",
+            "value": "Panoramic"
+          }
+        ],
+        "options": {
+          "bulk": false,
+          "download": false,
+          "order": true,
+          "secondary": false
+        }
+      }
+    ],
+    "recordsReturned": 1,
+    "totalHits": 1,
+    "nextRecord": 0,
+    "numExcluded": 0
+  },
+  "errorCode": null,
+  "errorMessage": null
+}

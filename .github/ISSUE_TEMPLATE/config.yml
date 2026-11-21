@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private report (candidate locations, leaks, secrets)
+    url: https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability
+    about: Never post candidate coordinates or crops publicly. Use the Security tab → "Report a vulnerability".

@@ -1,0 +1,12 @@
+Sahara Burial Finder
+Copyright 2026 Fares
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This repository contains code only. It does not redistribute imagery or data. Users who run the
+pipeline obtain data from its providers under their own terms:
+- USGS EROS declassified satellite imagery (Declass 1/2/3) via EarthExplorer / M2M API.
+- Copernicus Sentinel-1/2 and Copernicus DEM (contains modified Copernicus Sentinel data and
+  Copernicus DEM data), accessed through Google Earth Engine.
+- JAXA ALOS PALSAR yearly mosaics (JAXA attribution required).
+Reference coordinates in config/ are taken from IAEA (2005), STI/PUB/1215 (public).

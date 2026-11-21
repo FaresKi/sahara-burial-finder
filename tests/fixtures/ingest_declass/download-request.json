@@ -1,0 +1,13 @@
+{
+  "requestId": 2,
+  "version": "SYNTHETIC-FIXTURE",
+  "data": {
+    "availableDownloads": [
+      {"downloadId": 1, "entityId": "TEST_FIXTURE_0001", "url": "https://example.invalid/dl/TEST_FIXTURE_0001.tgz"}
+    ],
+    "preparingDownloads": [],
+    "failed": []
+  },
+  "errorCode": null,
+  "errorMessage": null
+}

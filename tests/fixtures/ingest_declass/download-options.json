@@ -1,0 +1,12 @@
+{
+  "requestId": 1,
+  "version": "SYNTHETIC-FIXTURE",
+  "data": [
+    {"id": "P_SMALL", "entityId": "TEST_FIXTURE_0001", "productName": "Compressed (low res)", "productCode": "S", "available": true, "filesize": 10},
+    {"id": "P_FULL", "entityId": "TEST_FIXTURE_0001", "productName": "Full resolution tgz", "productCode": "F", "available": true, "filesize": 100},
+    {"id": "P_BROWSE", "entityId": "TEST_FIXTURE_0001", "productName": "Browse image", "productCode": "B", "available": true, "filesize": 1000},
+    {"id": "P_NA", "entityId": "TEST_FIXTURE_0004", "productName": "Full resolution tgz", "productCode": "F", "available": false, "filesize": 500}
+  ],
+  "errorCode": null,
+  "errorMessage": null
+}

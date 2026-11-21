@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Candidate {{ cand_id }}</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:16px auto;max-width:1100px;padding:0 16px;color:#1b1b1b;background:#fff}
+.banner{background:#fff4d6;border:1px solid #d9b44a;padding:8px 12px;margin:8px 0}
+.strip{display:flex;flex-wrap:wrap;gap:10px}
+figure{margin:0;width:230px;font-size:12px}
+figure img{width:230px;height:230px;image-rendering:pixelated;border:1px solid #888}
+table{border-collapse:collapse;margin:8px 0}td,th{border:1px solid #bbb;padding:3px 8px;text-align:left}
+.restricted{background:#fde8e8;border:1px solid #c33;padding:6px 10px;display:inline-block}
+.conf-high{color:#0a6b2c}.conf-medium{color:#8a6100}.conf-low{color:#a12}
+</style></head><body>
+<h1>Candidate {{ cand_id }} <small>(rank {{ rank }}, AOI {{ aoi }})</small></h1>
+{% for s in statements %}<div class="banner"><strong>{{ s }}</strong></div>{% endfor %}
+<h2>Summary</h2>
+<table>
+<tr><th>Label</th><td>{{ label }}</td></tr>
+<tr><th>Date bracket</th><td>{{ bracket }}</td></tr>
+<tr><th>Mean fused score</th><td>{{ "%.2f"|format(mean_S) }}</td></tr>
+<tr><th>Area</th><td>{{ "%.0f"|format(area_m2) }} m&sup2;</td></tr>
+<tr><th>Confidence</th><td class="conf-{{ confidence.level }}"><strong>{{ confidence.level }}</strong></td></tr>
+</table>
+<h3>Confidence justification</h3>
+<ul>{% for j in confidence.justification %}<li>{{ j }}</li>{% endfor %}</ul>
+<h2>Chips by date</h2>
+<p>Outline = candidate polygon; bar = 200 m. Historical frames are chronological.</p>
+<div class="strip">
+{% for c in chips %}<figure><img alt="{{ c.title }}" src="data:image/png;base64,{{ c.png }}">
+<figcaption>{{ c.title }}<br>{{ c.sub }}</figcaption></figure>
+{% else %}<p>No imagery available for this candidate.</p>{% endfor %}
+</div>
+<h2>Per-family scores</h2>
+<table><tr><th>Family</th><th>Score</th></tr>
+{% for f, v in family_rows %}<tr><td>{{ f }}</td><td>{{ v }}</td></tr>{% endfor %}</table>
+<p>Prior contribution (documents): {{ prior }}</p>
+<h2>Caveats</h2>
+<ul><li>{{ invisible_caveat }}</li><li>{{ label_noise_caveat }}</li></ul>
+<h2>Location (restricted)</h2>
+<div class="restricted"><p>Do not share. Centroid WGS84 (lon, lat): {{ lonlat }}<br>
+Projected ({{ crs }}): {{ xy }}</p></div>
+</body></html>

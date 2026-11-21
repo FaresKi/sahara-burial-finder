@@ -1,0 +1,33 @@
+{
+  "requestId": 1,
+  "version": "SYNTHETIC-FIXTURE",
+  "data": [
+    {
+      "datasetAlias": "test_declass_1",
+      "collectionLongName": "SYNTHETIC Declassified Data 1 (test)",
+      "abstractText": "Synthetic test dataset."
+    },
+    {
+      "datasetAlias": "test_declass_2",
+      "collectionLongName": "SYNTHETIC Declassified Data 2 (test)",
+      "abstractText": "Synthetic."
+    },
+    {
+      "datasetAlias": "test_declass_3",
+      "collectionLongName": "SYNTHETIC Declass 3 (test)",
+      "abstractText": "Synthetic."
+    },
+    {
+      "datasetAlias": "test_declass_other",
+      "collectionLongName": "SYNTHETIC Declassified aerial series",
+      "abstractText": "Not 1/2/3."
+    },
+    {
+      "datasetAlias": "test_landsat",
+      "collectionLongName": "SYNTHETIC landsat",
+      "abstractText": "unrelated"
+    }
+  ],
+  "errorCode": null,
+  "errorMessage": null
+}

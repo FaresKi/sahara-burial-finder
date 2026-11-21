@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "GZ1",
+        "name": "Gerboise Bleue ground zero (13 Feb 1960)",
+        "aoi_id": "REG",
+        "precision": "iaea",
+        "expected_area_km2": 1.0,
+        "notes": "Disturbed/fused-sand area ~1 km2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0572,
+          26.3117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "GZ2",
+        "name": "Gerboise Blanche ground zero (1 Apr 1960; surface shot, later filled)",
+        "aoi_id": "REG",
+        "precision": "iaea",
+        "expected_area_km2": 1.0,
+        "notes": "~1 km2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1025,
+          26.1661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "GZ3",
+        "name": "Gerboise Rouge / Augias (27 Dec 1960)",
+        "aoi_id": "REG",
+        "precision": "iaea",
+        "expected_area_km2": 0.2,
+        "notes": "~0.2 km2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1236,
+          26.3536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "GZ4",
+        "name": "Gerboise Verte (25 Apr 1961)",
+        "aoi_id": "REG",
+        "precision": "iaea",
+        "expected_area_km2": 0.1,
+        "notes": "~0.1 km2; equipment left ~2 yrs before burial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0733,
+          26.3217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "TA1",
+        "name": "Tan Afella tunnel portal zone (E2 Beryl etc.)",
+        "aoi_id": "INE",
+        "precision": "approximate",
+        "expected_area_km2": null,
+        "notes": "Portals, lava/slag apron, roads. APPROXIMATE: refine from imagery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.05,
+          24.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "PO1",
+        "name": "Pollen site, Adrar Tikertine (~3 ha tarmacked)",
+        "aoi_id": "INE",
+        "precision": "approximate",
+        "expected_area_km2": 0.03,
+        "notes": "Tarmac pad, low visual cues today. APPROXIMATE (read from IAEA figure): refine from imagery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.72,
+          23.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "BASE",
+        "name": "Hamoudia base / Reggane plateau installations",
+        "aoi_id": "REG",
+        "precision": "to_locate",
+        "expected_area_km2": null,
+        "notes": "Buildings, runway, roads (non-target; georeferencing + negative class). To derive from imagery"
+      },
+      "geometry": null
+    }
+  ]
+}

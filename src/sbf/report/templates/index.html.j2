@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Candidate sheets {{ aoi }}</title>
+<style>body{font-family:system-ui,sans-serif;margin:16px auto;max-width:900px;padding:0 16px}
+table{border-collapse:collapse}td,th{border:1px solid #bbb;padding:3px 8px}</style></head><body>
+<h1>Candidate sheets, AOI {{ aoi }} (restricted)</h1>
+{% for s in statements %}<p><strong>{{ s }}</strong></p>{% endfor %}
+<table><tr><th>Rank</th><th>Sheet</th><th>Label</th><th>Mean S</th><th>Confidence</th></tr>
+{% for r in rows %}<tr><td>{{ r.rank }}</td><td><a href="{{ r.cand_id }}.html">{{ r.cand_id }}</a></td>
+<td>{{ r.label }}</td><td>{{ "%.2f"|format(r.mean_S) }}</td><td>{{ r.confidence }}</td></tr>{% endfor %}
+</table></body></html>

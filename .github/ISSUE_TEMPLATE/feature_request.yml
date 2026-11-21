@@ -1,0 +1,23 @@
+name: Method or feature proposal
+description: Propose a detector, data source, validation improvement or other change
+labels: [enhancement]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change and why. Link papers or data documentation where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: How would we know it works?
+      description: e.g. effect on blind-test recall@K / AP against the public reference features.
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Disclosure check
+      options:
+        - label: This proposal contains no candidate locations, restricted outputs or fieldwork instructions.
+          required: true

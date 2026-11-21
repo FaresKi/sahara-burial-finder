@@ -1,0 +1,73 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "aoi_id": "REG",
+        "name": "Reggane / Hamoudia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.25,
+              26.05
+            ],
+            [
+              0.25,
+              26.05
+            ],
+            [
+              0.25,
+              26.75
+            ],
+            [
+              -0.25,
+              26.75
+            ],
+            [
+              -0.25,
+              26.05
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "aoi_id": "INE",
+        "name": "In Ekker / Tan Afella / Adrar Tikertine"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.6,
+              23.8
+            ],
+            [
+              5.2,
+              23.8
+            ],
+            [
+              5.2,
+              24.2
+            ],
+            [
+              4.6,
+              24.2
+            ],
+            [
+              4.6,
+              23.8
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

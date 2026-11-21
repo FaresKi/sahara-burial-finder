@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Sahara Burial Finder: declassified imagery, open remote sensing and AI for locating waste burials at former French nuclear test sites in Algeria"
+authors:
+  - given-names: Fares
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-11-21
+keywords:
+  - remote sensing
+  - declassified satellite imagery
+  - CORONA
+  - anomaly detection
+  - nuclear legacy
+repository-code: "https://github.com/FaresKi/sahara-burial-finder"

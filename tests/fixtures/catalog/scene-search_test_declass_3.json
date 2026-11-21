@@ -1,0 +1,128 @@
+{
+  "requestId": 1,
+  "version": "SYNTHETIC-FIXTURE",
+  "data": {
+    "results": [
+      {
+        "entityId": "TEST_FIXTURE_0003",
+        "displayId": "TEST_FIXTURE_0003",
+        "cloudCover": null,
+        "browse": [
+          {
+            "browsePath": "https://example.invalid/browse/TEST_FIXTURE_0003.jpg"
+          }
+        ],
+        "spatialCoverage": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.3,
+                26.1
+              ],
+              [
+                0.1,
+                26.1
+              ],
+              [
+                0.1,
+                26.5
+              ],
+              [
+                -0.3,
+                26.5
+              ],
+              [
+                -0.3,
+                26.1
+              ]
+            ]
+          ]
+        },
+        "temporalCoverage": {
+          "startDate": "1975-01-15 00:00:00",
+          "endDate": "1975-01-15 00:00:00"
+        },
+        "metadata": [
+          {
+            "fieldName": "Mission",
+            "value": "KH-9 mapping"
+          },
+          {
+            "fieldName": "Camera Type",
+            "value": "Mapping Camera"
+          }
+        ],
+        "options": {
+          "bulk": false,
+          "download": false,
+          "order": true,
+          "secondary": false
+        }
+      },
+      {
+        "entityId": "TEST_FIXTURE_0005",
+        "displayId": "TEST_FIXTURE_0005",
+        "cloudCover": 20,
+        "browse": [
+          {
+            "browsePath": "https://example.invalid/browse/TEST_FIXTURE_0005.jpg"
+          }
+        ],
+        "spatialCoverage": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.3,
+                26.1
+              ],
+              [
+                0.1,
+                26.1
+              ],
+              [
+                0.1,
+                26.5
+              ],
+              [
+                -0.3,
+                26.5
+              ],
+              [
+                -0.3,
+                26.1
+              ]
+            ]
+          ]
+        },
+        "temporalCoverage": {
+          "startDate": "1978-02-02 00:00:00",
+          "endDate": "1978-02-02 00:00:00"
+        },
+        "metadata": [
+          {
+            "fieldName": "Mission",
+            "value": "KH-9 panoramic"
+          },
+          {
+            "fieldName": "Camera Type",
+            "value": "Panoramic"
+          }
+        ],
+        "options": {
+          "bulk": false,
+          "download": false,
+          "order": true,
+          "secondary": false
+        }
+      }
+    ],
+    "recordsReturned": 2,
+    "totalHits": 2,
+    "nextRecord": 0,
+    "numExcluded": 0
+  },
+  "errorCode": null,
+  "errorMessage": null
+}
